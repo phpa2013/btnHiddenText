@@ -1,0 +1,44 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: #fff;
+}
+
+.content{
+ margin: 1em auto;
+ max-width: 60em;
+ width: fit-content;
+ padding: 1em;
+ border: 3px solid #ccc;
+ display: flex;
+ gap: .5em;
+ align-items: end;
+ height: auto;
+ transition: all .5s;
+}
+.content p{
+ letter-spacing: 1px;
+ line-height: 1.1;
+ 
+}
+
+.opacity{
+ opacity: .6;
+}
+.noOpacity{
+ opacity: 1;
+}
+button{
+ padding: .5em;
+}
+button.mostrar{
+ background-color: blue;
+ color: white;
+}
+button.esconder{
+ background-color: red;
+ color: white;
+}
